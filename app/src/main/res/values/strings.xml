@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Color Islands</string>
+    <string name="prompt_text">Enter the number of rows and columns (10 by default)</string>
+    <string name="num_rows">Number of Rows</string>
+    <string name="num_columns">Number of Columns</string>
+    <string name="generate">Generate!</string>
+</resources>
