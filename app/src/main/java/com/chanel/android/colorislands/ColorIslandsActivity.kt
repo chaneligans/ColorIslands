@@ -65,11 +65,8 @@ class ColorIslandsActivity : AppCompatActivity() {
 
     // Fill the square if it hasn't already been visited
     private fun processSquare(position: Int, square: Square) {
-        if (!square.isVisited){
-            square.isVisited = true
-            square.color = Color.BLUE
-            squareAdapter.notifyItemChanged(position)
-        }
+        square.color = Color.BLUE
+        squareAdapter.notifyItemChanged(position)
     }
 
     // Given a position, fill the square if it is valid
